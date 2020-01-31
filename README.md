@@ -33,4 +33,5 @@ I would pick the median across multiple trials for each individual trial to ensu
 
 ### c)
 
-See above
+![Part 1][/Python_part1.pdf]
+
