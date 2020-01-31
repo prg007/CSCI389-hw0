@@ -29,7 +29,7 @@ My strategy was to keep the average mean time constant across several runs as se
 
 ### b) 
 
-I would pick the median across multiple trials for each individual trial to ensure that my result was a good git and representative of all trials. It helped to eradicate the outilers in my data. 
+I would pick the median across multiple trials for each individual trial to ensure that my result was a good fit and representative of all trials. It helped to eradicate the outilers in my data. 
 
 ### c)
 
