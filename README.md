@@ -68,4 +68,16 @@ As mentioned in the question, I ran the 3 trials on average for each of the data
 
 ![Part 3](https://github.com/prg007/CSCI389-hw0/blob/master/all_c++_comparisons1.png)
 
+## PART4
+
+As mentioned in the question I ran `update.cpp` using the following code `/usr/bin/time -lp ./a 1048576 1000` with # of iterations set to **1000** and # of objects set to **2^10**. In order to find the amount of data used read `the maximum resident set size` attribute in the command line. As expected, **double** and **int64** consumed the most amount of memory followed by **float** and **int32** which was followed by **int16**. **int8** consumed the least amount of memory. The results have been tabulated below: 
+
+Data Type | Memory Used 
+----------|------------
+double | 51171328
+float  | 25972736
+int64_t |  51142656
+int32_t | 25976832
+int16_t | 13402112
+int8_t | 7114752
 
