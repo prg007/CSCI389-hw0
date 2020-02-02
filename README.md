@@ -66,6 +66,6 @@ Number Of Objects | Number Of Iterations | Average MeanTime
 
 As mentioned in the question, I ran the 3 trials on average for each of the data types. The results have been attached in the graph below. I found that the performace of **int8** was much better than all other data types. The performance of **int16** was a little better than the performance of **int32** and **float**. The performance of **int32** and **float** were almost comparable to each other. **int64** and **double** on average had the worst performance. Look at the graph below for more information.
 
-![Part 3](https://github.com/prg007/CSCI389-hw0/blob/master/all_c++_comparisons.png)
+![Part 3](https://github.com/prg007/CSCI389-hw0/blob/master/all_c++_comparisons1.png)
 
 
