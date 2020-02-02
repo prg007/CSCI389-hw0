@@ -81,4 +81,4 @@ int32_t | 25976832
 int16_t | 13402112
 int8_t | 7114752
 
-As far as memory usage for Python is concerned, I had to use a different approach. I basically followed what was mentioned in this stackoverflow link (https://stackoverflow.com/questions/552744/how-do-i-profile-memory-usage-in-python). It involves installing guppy and using hpy. For the same parameters as above, Python used a memory size of **Total size = 208185467 bytes**. which is 4 times worse than double in C++.  
+As far as memory usage for Python is concerned, I had to use a different approach. I basically followed what was mentioned in this stackoverflow link (https://stackoverflow.com/questions/552744/how-do-i-profile-memory-usage-in-python). It involves installing guppy and using hpy. For the same parameters as above, Python used a memory size of **Total size = 208185467 bytes**. which is 4 times worse than double in C++ and almost 30 times worse than using int8 in C++
