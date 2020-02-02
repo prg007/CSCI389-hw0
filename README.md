@@ -1,5 +1,5 @@
 # CSCI389-hw0 PRASUN
-Homework file for CSCI 389
+Homework file for CSCI 389 for Prasun. 
 
 ## PART 1
 
@@ -37,7 +37,7 @@ I would pick the median across multiple trials for each individual trial to ensu
 
 ## PART 2
 
-The C++ version(update.cpp) of update_locations.py was compiled by setting the data type to float. This is done by setting the data_t parameter to 'float' in line 9 of update.cpp. The C++ version gave much better performance as compared to the Python version.  I was able to run more iterations and larger object counts. This means we can compute and tabulate our results over a larger range making our results much more significant. The running time of C++ code and the comparison graph of C++ vs Python has been attached below
+The C++ version(**update.cpp**) of update_locations.py was compiled by setting the data type to float. This is done by setting the data_t parameter to 'float' in line 9 of update.cpp. The C++ version gave much better performance as compared to the Python version.  I was able to run more iterations and larger object counts. This means we can compute and tabulate our results over a larger range making our results much more significant. The running time of C++ code and the comparison graph of C++ vs Python has been attached below
 
 Number Of Objects | Number Of Iterations | Average MeanTime 
 ------------------|----------------------|-----------------
@@ -61,6 +61,10 @@ Number Of Objects | Number Of Iterations | Average MeanTime
 
 
 ![Part 2](https://github.com/prg007/CSCI389-hw0/blob/master/part2_C++_vs_Python.png)
+
+## PART3
+
+As mentioned in the question, I ran the 3 trials on average for each of the data types. The results have been attached in the graph below. I found that the performace of **int8** was much better than all other data types. The performance of **int16** was a little better than the performance of **int32** and **float**. The performance of **int32** and **float** were almost comparable to each other. **int64** and **double** on average had the worst performance. Look at the graph below for more information.
 
 
 
