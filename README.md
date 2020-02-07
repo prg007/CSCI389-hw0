@@ -60,7 +60,7 @@ Number Of Objects | Number Of Iterations | Average MeanTime
 2^24(16777216) | 1 | 0.00700629
 
 
-![Part 2](https://github.com/prg007/CSCI389-hw0/blob/master/part2_C++_vs_Python.png)
+![Part 2](https://github.com/prg007/CSCI389-hw0/blob/master/part2_C++_vs_Python_1.png)
 
 ## PART3
 
