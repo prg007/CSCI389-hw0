@@ -1,5 +1,7 @@
 # CSCI389-hw0 PRASUN
 Homework file for CSCI 389 for Prasun. 
+There are 2 C++ files - update.cpp (This one uses array's)
+u.cpp - This one uses vectors. As it turns out using array's improves your performance by a factor of 500 times as compared to Python, whereas using vectors improves your performance by a factor of 50 times(approximately). The graphs in this repository are computed using the vector version u.cpp 
 
 ## PART 1
 
@@ -37,7 +39,7 @@ I would pick the median across multiple trials for each individual trial to ensu
 
 ## PART 2
 
-The C++ version(**update.cpp**) of update_locations.py was compiled by setting the data type to float. This is done by setting the data_t parameter to 'float' in line 9 of update.cpp. The C++ version gave much better performance(50 times faster as compared to the Python version.  I was able to run more iterations and larger object counts. This means we can compute and tabulate our results over a larger range making our results much more significant. The running time of C++ code and the comparison graph of C++ vs Python has been attached below
+The C++ version(**update.cpp**) of update_locations.py was compiled by setting the data type to float. This is done by setting the data_t parameter to 'float' in line 9 of update.cpp. The C++ version gave much better performance(500 times faster as compared to the Python version).  I was able to run more iterations and larger object counts. This means we can compute and tabulate our results over a larger range making our results much more significant. The running time of C++ code and the comparison graph of C++ vs Python has been attached below
 
 Number Of Objects | Number Of Iterations | Average MeanTime 
 ------------------|----------------------|-----------------
