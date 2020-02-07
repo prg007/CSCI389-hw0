@@ -37,27 +37,27 @@ I would pick the median across multiple trials for each individual trial to ensu
 
 ## PART 2
 
-The C++ version(**update.cpp**) of update_locations.py was compiled by setting the data type to float. This is done by setting the data_t parameter to 'float' in line 9 of update.cpp. The C++ version gave much better performance as compared to the Python version.  I was able to run more iterations and larger object counts. This means we can compute and tabulate our results over a larger range making our results much more significant. The running time of C++ code and the comparison graph of C++ vs Python has been attached below
+The C++ version(**update.cpp**) of update_locations.py was compiled by setting the data type to float. This is done by setting the data_t parameter to 'float' in line 9 of update.cpp. The C++ version gave much better performance(50 times faster as compared to the Python version.  I was able to run more iterations and larger object counts. This means we can compute and tabulate our results over a larger range making our results much more significant. The running time of C++ code and the comparison graph of C++ vs Python has been attached below
 
 Number Of Objects | Number Of Iterations | Average MeanTime 
 ------------------|----------------------|-----------------
-2^8(256) | 50000 | 0.0511211
-2^9(512) | 25000 | 0.0490125
-2^10(1024) | 12500 | 0.0531766
-2^11(2048)  | 6250 | 0.0534398
-2^12(4096) | 3125 | 0.0546383
-2^13(8192) | 1562 | 0.0546933
-2^14(16384) | 781 | 0.0598457
-2^15(32768) | 390 | 0.0625282
-2^16(65536) | 195 | 0.0585671
-2^17(131072) | 97 | 0.059289
-2^18(262144) | 48 | 0.0562437
-2^19(524288) | 24 | 0.0631404
-2^20(1048576) | 12 | 0.0601085
-2^21(2097152) | 6 | 0.0612569
-2^22(4194304) | 3 | 0.0570711
-2^23(8388608) | 2 | 0.062556
-2^24(16777216) | 1 | 0.0700629
+2^8(256) | 50000 | 0.00511211
+2^9(512) | 25000 | 0.00490125
+2^10(1024) | 12500 | 0.00531766
+2^11(2048)  | 6250 | 0.00534398
+2^12(4096) | 3125 | 0.00546383
+2^13(8192) | 1562 | 0.00546933
+2^14(16384) | 781 | 0.00598457
+2^15(32768) | 390 | 0.00625282
+2^16(65536) | 195 | 0.00585671
+2^17(131072) | 97 | 0.0059289
+2^18(262144) | 48 | 0.00562437
+2^19(524288) | 24 | 0.00631404
+2^20(1048576) | 12 | 0.00601085
+2^21(2097152) | 6 | 0.00612569
+2^22(4194304) | 3 | 0.00570711
+2^23(8388608) | 2 | 0.0062556
+2^24(16777216) | 1 | 0.00700629
 
 
 ![Part 2](https://github.com/prg007/CSCI389-hw0/blob/master/part2_C++_vs_Python.png)
